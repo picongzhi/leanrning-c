@@ -25,6 +25,8 @@ int main(void) {
     puts("Here are your words:");
     for (i = 0; i < n; i++)
         printf("%s\n", words[i]);
+    
+    free(words);
 
     return 0;
 }
